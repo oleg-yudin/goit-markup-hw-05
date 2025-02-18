@@ -776,10 +776,10 @@ footer>.container>a{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    fill: transparent;
+    fill: transparent;  
 
 }
-.visually-hidden:checked + .modal-policy > .checkbox-span{
+.hidden-checkbox:checked + .modal-policy > .checkbox-span{
     fill: #F4F4FD;
     border: none;
     background-color: #404bbf;
