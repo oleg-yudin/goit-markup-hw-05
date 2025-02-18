@@ -777,13 +777,12 @@ footer>.container>a{
     align-items: center;
     justify-content: center;
     fill: transparent;
-    background-color: #404bbf;
-    fill: transparent;
 
 }
 .visually-hidden:checked + .modal-policy > .checkbox-span{
     fill: #F4F4FD;
     border: none;
+    background-color: #404bbf;
 }
 .policy-ref{
         line-height: 133%;
