@@ -485,6 +485,15 @@ footer>.container>a{
 .section-footer-list-svg .icon-referens:focus{
     background-color: #31d0aa;
 }
+.subscribe-text{
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
 .form{
     display: flex;
     flex-direction: row;
@@ -515,6 +524,8 @@ footer>.container>a{
         padding-top: 8px;
         padding-left: 16px;
         padding-bottom: 8px;
+        font-size: 12px;
+        line-height: 2;
 }
 .form-input::placeholder{
     font-family: "Roboto", sans-serif;
