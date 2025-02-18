@@ -708,6 +708,9 @@ footer>.container>a{
     fill: #4D5AE5;
 }
 .label-input-container{
+    margin-bottom: 8px;
+}
+.label-textarea-container{
     margin-bottom: 16px;
 }
 .textarea{
@@ -775,10 +778,12 @@ footer>.container>a{
     justify-content: center;
     fill: transparent;
     background-color: #404bbf;
-    border: none;
     fill: transparent;
-    fill: #F4F4FD;
 
+}
+.visually-hidden:checked + .checkbox-label > .checkbox-span{
+    fill: #F4F4FD;
+    border: none;
 }
 .policy-ref{
         line-height: 133%;
