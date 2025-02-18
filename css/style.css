@@ -704,6 +704,9 @@ footer>.container>a{
     border-color: #4D5AE5;
     fill: #4D5AE5;
 }
+.modal-input:focus + .icon-svg-possition{
+    fill: #4D5AE5;
+}
 .label-input-container{
     margin-bottom: 8px;
 }
