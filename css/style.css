@@ -708,7 +708,7 @@ footer>.container>a{
     fill: #4D5AE5;
 }
 .label-input-container{
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 .textarea{
     resize: none;
@@ -741,7 +741,7 @@ footer>.container>a{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 .visually-hidden{
     position: absolute;
@@ -768,7 +768,6 @@ footer>.container>a{
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
-    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: inline-flex;
@@ -778,6 +777,7 @@ footer>.container>a{
     background-color: #404bbf;
     border: none;
     fill: transparent;
+    fill: #F4F4FD;
 
 }
 .policy-ref{
