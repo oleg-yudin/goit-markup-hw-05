@@ -481,6 +481,9 @@ footer>.container>a{
     gap: 16px;
 
 }
+.social-links{
+    margin-right: 80px;
+}
 .section-footer-list-svg .icon-referens:hover,
 .section-footer-list-svg .icon-referens:focus{
     background-color: #31d0aa;
@@ -541,10 +544,8 @@ footer>.container>a{
         border-radius: 4px;
         cursor: pointer;
     display: flex;
-    gap: 16px;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
     min-width: 165px;
     height: 40px;
     border: none;
@@ -644,12 +645,8 @@ footer>.container>a{
 }
 
 .modal-overlay-form{
-    display: flex;
     flex-direction: column;
     gap: 8px;
-    
-    margin: 0 auto 8px;
-
 }
 .label-input-container{
     margin-bottom: 8px;
@@ -681,13 +678,6 @@ footer>.container>a{
 
 }
 
-.possition:hover,
-.possition:focus{
-    border: 1px solid #4d5ae5;
-        border-radius: 4px;
-       
-        fill: #4d5ae5;;
-}
 .modal-input{
             border-radius: 4px;
             width: 100%;    
@@ -765,7 +755,6 @@ footer>.container>a{
         line-height: 1.17;
         letter-spacing: 0.04em;
         color: #8e8f99;
-        margin-bottom: 24px;
 }
 .checkbox-span{
     width: 16px;
@@ -793,6 +782,8 @@ footer>.container>a{
 
 .modal-button{
     display: block;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 4px;
         padding: 16px 32px;
         min-width: 169px;
